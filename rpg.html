@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <h1>RPG</h1>
+        <div id="story"></div>
+        <div id="options"></div>
+        <div id="player-stats">
+            <h2>Estadísticas del Jugador</h2>
+            <p id="player-name"></p>
+            <p id="player-health"></p>
+            <p id="player-stamina"></p>
+            <p id="player-level"></p>
+        </div>
+        <div id="enemy-stats" style="display: none;">
+            <h2>Estadísticas del Enemigo</h2>
+            <p id="enemy-name"></p>
+            <p id="enemy-health"></p>
+            <p id="enemy-stamina"></p>
+        </div>
+        <div id="training" style="display: none;">
+            <h2>Entrenamiento</h2>
+            <p id="click-count">Clics: 0</p>
+            <p id="required-clicks">Clics necesarios: 0</p>
+            <button id="train-button">Hacer clic</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
